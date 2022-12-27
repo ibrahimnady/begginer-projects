@@ -1,0 +1,10 @@
+.color{
+    background-color: rgb(238, 238, 238);
+}
+.container>.row>.col-lg-6>h2{
+    display: inline;
+    margin-right: 25%;
+}
+a{
+    text-decoration: none;
+}

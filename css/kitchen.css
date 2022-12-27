@@ -1,0 +1,33 @@
+header{
+    background-image: url(../image/kitchen\ bg2.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.imge {
+    background-image   : url(../image/kitchen\ bg.png);
+    background-position: 100% 100%;
+    height             : 100vh;
+    background-size    : cover;
+    position           : relative;
+}
+.line {
+    width           : 17%;
+    height          : 1%;
+    text-align      : center;
+    background-color: peru;
+    position        : absolute;
+    transform       : translate(-50%, -50%);
+    top             : 20%;
+    left            : 50%;
+}
+
+.line:hover {
+    width           : 30%;
+    transition-delay: 0.3s;
+}
+
+.item>img {
+    height: 30vh;
+}

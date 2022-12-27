@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size  : 80px;
+
+}
+
+p {
+    font-size: 30px;
+}
+
+.btn {
+    background-color: #0000ff;
+    width           : 18%;
+    border          : none;
+}

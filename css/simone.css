@@ -1,0 +1,527 @@
+* {
+    margin        : 0%;
+    padding       : 0%;
+    box-sizing    : border-box;
+    font-family   : 'Poppins';
+    text-transform: capitalize;
+}
+::selection{
+    background-color: #20c907;
+}
+/* start header  */
+.header {
+    background-image: url(../image/simone/intro-bg.jpg);
+    height          : 100vh;
+    background-size : cover;
+}
+.nav-link{
+    color: #20c907;
+}
+.layer-background {
+    background-color: rgba(0, 0, 0, 0.47);
+    height          : 100vh;
+    width           : 100wh;
+}
+
+.container-nav {
+    position        : relative;
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+
+
+.center-header {
+    text-align: center;
+    position  : relative;
+    top       : 30%;
+    color     : white;
+    font-size : 20px;
+}
+
+.center-header h2 {
+    margin-bottom: 3%;
+    font-size    : 35px;
+}
+
+
+
+.center-header h3 {
+    margin-top: 3%;
+}
+
+.btn {
+    padding         : 0.8rem 2.6rem;
+    font-weight     : 500;
+    border-width    : 2px;
+    transition      : all 0.5s ease;
+    border          : 3px solid green;
+    border-radius   : 50rem;
+    margin-top      : 3.5rem;
+    background-color: transparent;
+    font-size       : 20px;
+
+}
+
+.btn a {
+    color          : green;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: green;
+    color           : white;
+}
+
+.btn a:hover {
+    color: white;
+}
+
+/* end header  */
+/* start Know Me More */
+.section-one>h2 {
+    text-align: center;
+    margin    : 5%;
+    font-size : 40px;
+}
+
+
+
+.section-article>h2 {
+    font-size    : 30px;
+    margin-bottom: 2%;
+}
+
+.section-article>h2>span {
+    color: #20c997;
+}
+
+.section-article>p {
+    line-height: 1.5;
+    font-size  : 20px;
+}
+
+
+
+.section-info>ul {
+    list-style: none;
+    font-size : 25px;
+}
+
+.section-info>ul>li {
+    margin: 2%;
+}
+
+.section-info>ul>li>span {
+    font-size  : 30px;
+    font-weight: 600;
+}
+
+.section-info>ul>li>a {
+    color          : #0e7e5c;
+    text-decoration: none;
+    font-weight    : 600;
+}
+
+.test {
+    display        : flex;
+    flex-flow      : row wrap;
+    width          : 100%;
+    justify-content: space-around;
+}
+
+.section-info>button {
+    width           : 70%;
+    margin-left     : 3%;
+    padding         : 2% 0%;
+    border-radius   : 30px 30px;
+    background-color: #20c997;
+    color           : white;
+    font-size       : 30px;
+    border          : none;
+}
+
+.section-info>button:hover {
+    background-color: #0e7e5c;
+    transition      : all 1s ease;
+    box-shadow      : 3px 4px 8px gray;
+}
+
+.section-number {
+    display        : flex;
+    flex-flow      : row wrap;
+    justify-content: space-evenly;
+    text-align     : center;
+    color          : #6c757d;
+    margin-top     : 5%;
+}
+
+.section-number>.number>span {
+    font-size  : 40px;
+    font-weight: 800;
+}
+
+.section-number>.number>p {
+    font-size : 20px;
+    margin-top: 5%;
+}
+
+/* end Know Me More */
+/* start whai i do  */
+.section-two>h2 {
+    margin    : 10%;
+    text-align: center;
+    font-size : 50px;
+}
+
+section {
+    background-color: #f8f9fa;
+}
+
+.multi-section {
+    display        : flex;
+    flex-flow      : row wrap;
+    width          : 100%;
+    justify-content: space-evenly;
+}
+
+.task {
+    width        : 35%;
+    margin-bottom: 2%;
+}
+
+.task>h3 {
+    font-size: 30px;
+    margin   : 3% 0%;
+    color    : #252b33;
+}
+
+.task>p {
+    color: #54616f;
+}
+
+/* end what i do  */
+/* start resum  */
+.resume>h2 {
+    margin    : 10%;
+    text-align: center;
+    font-size : 40px;
+}
+
+.resume-p {
+    display        : flex;
+    width          : 100%;
+    flex-flow      : row wrap;
+    justify-content: space-evenly;
+}
+
+.my-education {
+    width: 30%;
+}
+
+.education {
+    border       : 2px solid #dee2e6;
+    margin       : 5%;
+    padding      : 3%;
+    border-radius: 6px;
+    width        : 120%;
+}
+
+.my-education>h2 {
+    margin     : 5% 0%;
+    margin-left: 5%;
+}
+
+.education>span {
+    background-color: #20c997;
+    padding         : 1%;
+    border-radius   : 10px;
+    color           : white;
+}
+
+.education>h3 {
+    margin: 5% 0%;
+}
+
+.education>h4 {
+    color: red;
+}
+
+.education>p {
+    margin-bottom: 5%;
+    margin-top   : 3%;
+}
+
+.my-experience {
+    width       : 30%;
+    margin-right: 8%;
+}
+
+.my-experience>h2 {
+    margin     : 5% 0%;
+    margin-left: 5%;
+}
+
+.experience {
+    border       : 2px solid #dee2e6;
+    margin       : 5%;
+    padding      : 3%;
+    border-radius: 6px;
+    width        : 120%;
+}
+
+.experience>span {
+    background-color: #20c997;
+    padding         : 1%;
+    border-radius   : 10px;
+    color           : white;
+
+}
+
+.experience>h3 {
+    margin: 5% 0%;
+}
+
+.experience>h4 {
+    color: red;
+}
+
+.experience>p {
+    margin-bottom: 5%;
+    margin-top   : 3%;
+}
+
+/* end resume  */
+/* start my work  */
+.my-work>h2 {
+    margin       : 10%;
+    text-align   : center;
+    font-size    : 40px;
+    margin-bottom: 3%;
+}
+
+.ul>ul>li {
+    margin: 0% 2%;
+}
+
+.ul>ul>li>a {
+    text-decoration: none;
+    color          : #7b8084;
+    font-size      : 25px;
+    font-weight    : 600;
+}
+
+.ul>ul>li>a:hover {
+    color             : #20c997;
+    transition        : all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition   : all 1s;
+    -ms-transition    : all 1s;
+    -o-transition     : all 1s;
+}
+
+.ul>ul {
+    display        : inline-flex;
+    justify-content: center;
+    flex-flow      : row wrap;
+    width          : 50%;
+    position       : lef;
+    position       : relative;
+    left           : 25%;
+    list-style     : none;
+    margin-bottom  : 5%;
+}
+
+.photos {
+
+    column-count: 3;
+    max-width   : 100%;
+    margin      : 0 auto;
+    padding     : 30px;
+
+}
+
+.photos>img {
+    width  : 100%;
+    height : auto;
+    display: block;
+    padding: 10px;
+}
+
+/* end my work  */
+/* start Client Speak  */
+.client-speak>h2 {
+    margin    : 10%;
+    text-align: center;
+    font-size : 40px;
+}
+
+.client-p {
+    display        : flex;
+    flex-flow      : row wrap;
+    justify-content: space-around;
+    position       : relative;
+}
+
+.client-one {
+    width           : 40%;
+    border          : 3px solid white;
+    border-radius   : 20px;
+    background-color: #f8f9fa;
+    box-shadow      : 8px 10px 10px grey;
+}
+
+.client-one>img {
+    border-radius: 50%;
+    padding      : 2%;
+}
+
+.client-one>h3 {
+    position: absolute;
+    top     : 10px;
+    left    : 12%;
+
+}
+
+.client-one>h4 {
+    position: absolute;
+    top     : 20%;
+    left    : 12%;
+    color   : #6c757d;
+}
+
+.client-one>p {
+    margin-top : 3%;
+    padding    : 2%;
+    line-height: 1.5;
+}
+
+.client-two {
+    width           : 40%;
+    border          : 3px solid white;
+    border-radius   : 20px;
+    background-color: #f8f9fa;
+    box-shadow      : 8px 10px 10px grey;
+}
+
+.client-two>img {
+    border-radius: 50%;
+    padding      : 2%;
+}
+
+.client-two>h3 {
+    position: absolute;
+    top     : 10px;
+    right   : 29%;
+}
+
+.client-two>h4 {
+    position: absolute;
+    top     : 20%;
+    right   : 25%;
+    color   : #6c757d;
+}
+
+.client-two>p {
+    margin-top : 3%;
+    padding    : 2%;
+    line-height: 1.5;
+}
+
+/* end client speak  */
+/* start get in touch  */
+.get>h2 {
+    margin    : 10%;
+    text-align: center;
+    font-size : 40px;
+}
+
+
+
+
+
+.address>h4 {
+    font-size: 30px;
+}
+
+.address>ul {
+    font-size    : 25px;
+    color        : #6c757d;
+    list-style   : none;
+    margin-left  : 5%;
+    margin-top   : 5%;
+    margin-bottom: 5%;
+}
+
+.address>p {
+    font-size   : 20px;
+    color       : #6c757d;
+    padding-left: 2%;
+    line-height : 1.5;
+}
+
+/* .data {
+    width      : 80%;
+    margin-left: 10%;
+} */
+
+.lable {
+    font-size: 30px;
+}
+
+.input1>.us {
+    width        : 40%;
+    /* margin-top   : 3%;
+    margin-right : 3%;
+    padding      : 1%;
+    border-radius: 10px; */
+
+}
+
+.input2>.info {
+    width        : 84%;
+    height       : 20%;
+    text-align   : left;
+    margin-bottom: 2%;
+    padding      : 10px;
+    margin-top   : 2%;
+    border-radius: 10px;
+}
+
+.button {
+    width           : 30%;
+    margin-left     : 25%;
+    padding         : 1% 0%;
+    border-radius   : 30px 30px;
+    background-color: #20c997;
+    color           : white;
+    font-size       : 30px;
+    border          : none;
+    margin-bottom   : 2%;
+}
+
+.button:hover {
+    background-color: #0e7e5c;
+    transition      : all 1s ease;
+    box-shadow      : 3px 4px 8px grey;
+}
+
+/* end get in touch */
+/* start footer  */
+footer {
+    text-align: center;
+    font-size : 25px;
+    margin    : 5%;
+}
+
+footer>p>span {
+    color: #20c997;
+}
+
+/* for tablet */
+@media screen and (min-width:768px) and (max-width:979px) {}
+
+/* for mobile landscape */
+@media screen and (min-width:480px) and (max-width:767px) {}
+
+/* for mobile  */
+@media screen and (max-width:479px) {}

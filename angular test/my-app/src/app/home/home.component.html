@@ -1,0 +1,26 @@
+<p>home works!</p>
+<h1 *ngIf = "isSale;else test">is sale</h1>
+<ng-template #test>
+  <h1>not sale</h1>
+</ng-template>
+<ul>
+  <li *ngFor="let friend of friends">{{friend}} </li>
+</ul>
+<table class=" table w-75 m-auto my-5 table-bordered table-striped">
+  <thead>
+    <th>N</th>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Salary</th>
+    <th>Gender</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users; let i=index; let test = odd"[class.bg-danger] = test>
+      <td>{{i+1}} </td>
+      <td>{{user.name}} </td>
+      <td>{{user.age}} </td>
+      <td>{{user.salary}} </td>
+      <td>{{user.gender}} </td>
+    </tr>
+  </tbody>
+</table>

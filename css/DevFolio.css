@@ -1,0 +1,289 @@
+/* start header  */
+.backgimg {
+    background-image     : url(../image/devfilo/hero-bg.jpg);
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    background-size      : cover;
+    background-position  : center center;
+    width                : 100wh;
+    height               : 100vh;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width           : 100wh;
+    height          : 100vh;
+}
+
+.transparent {
+    background-color: black !important;
+}
+
+.test {
+    color: white !important;
+}
+
+.morgan {
+    position: absolute;
+    top     : 35%;
+    left    : 32%;
+    color   : white;
+}
+
+.morgan h1 {
+    font-weight: bold;
+    font-size  : 50px;
+}
+
+.typing::after {
+    content   : "";
+    animation : typing 3s alternate infinite;
+    color     : white;
+    text-align: center;
+    font-size : 55px;
+    position  : absolute;
+    top       : 50%;
+    left      : 40%;
+}
+
+@keyframes typing {
+    0% {
+        content: "";
+    }
+
+    5% {
+        content: "D|";
+    }
+
+    10% {
+        content: "De|";
+    }
+
+    15% {
+        content: "Dev|";
+    }
+
+    20% {
+        content: "Deve|";
+    }
+
+    25% {
+        content: "Devel|";
+    }
+
+    30% {
+        content: "Develo|";
+    }
+
+    35% {
+        content: "Develop|";
+    }
+
+    40% {
+        content: "Develope|";
+    }
+
+    45% {
+        content: "Developer|";
+    }
+
+    100% {
+        content: "Developer";
+    }
+}
+
+/* end header  */
+/* start profile  */
+/* start services  */
+.zeze {
+    /* width        : 33%; */
+    border-radius: 10px;
+}
+
+/* end services  */
+/* start number  */
+.parent {
+    height               : 50vh;
+    width                : 100wh;
+    background-image     : url(../image/devfilo/counters-bg.jpg);
+    background-attachment: fixed;
+
+}
+
+.overly {
+    background-color: rgba(20, 79, 143, 0.86);
+    width           : 100%;
+    height          : 100%;
+    display         : flex;
+    align-items     : center;
+    flex-direction  : row;
+    flex-wrap       : wrap;
+}
+
+.cr {
+    color: #fff;
+}
+
+.wt {
+    width: 20%;
+
+}
+
+.we {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: center;
+}
+
+/* end number  */
+/* start prifilo  */
+.img {
+    width: 100%;
+}
+
+.part {
+    text-align: left;
+}
+
+.part>p>span {
+    color: blue;
+}
+
+/* end prifilo  */
+.parent1 {
+    height               : 80vh;
+    width                : 100wh;
+    background-image     : url(../image/devfilo/overlay-bg.jpg);
+    background-attachment: fixed;
+
+}
+
+.overly1 {
+    background-color: rgba(20, 79, 143, 0.86);
+    width           : 100%;
+    height          : 100%;
+
+}
+
+.move {
+    width  : 100%;
+    height : 70vh;
+    display: flex;
+
+}
+
+.mg {
+    position: relative;
+    left    : 45%;
+}
+
+.down {
+    position: relative;
+    top     : 50%;
+
+    text-align: center;
+}
+
+.free {
+    border-bottom: 5px brown;
+    border-radius: 5px;
+}
+
+.blog>img {
+    width: 100%;
+}
+
+.idea {
+    width: 100%;
+}
+
+.travel {
+    background-color: #0078ff;
+    color           : white;
+    width           : 28%;
+    text-align      : center;
+    transform       : translate(130%, -70%);
+}
+
+
+.free>img {
+    width         : 8%;
+    padding-left  : 0px;
+    margin-left   : 8px;
+    border-radius : 50%;
+    text-transform: capitalize;
+}
+
+.ch {
+    color: black;
+}
+
+.ch:hover {
+    color     : #0078ff;
+    transition: all 1s 1s;
+}
+
+.back {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.footer {
+    background-image     : url(../image/devfilo/overlay-bg.jpg);
+    height               : 100vh;
+    background-attachment: fixed;
+}
+
+.overlay3 {
+    background-color: rgba(20, 79, 143, 0.83);
+    width           : 100%;
+    height          : 100vh;
+}
+
+.form {
+    width           : 40%;
+    background-color: #fff;
+    margin-top      : 5%;
+    padding-top     : 3%;
+}
+
+.touch {
+    width           : 40%;
+    background-color: #fff;
+    margin-top      : 5%;
+    padding-top     : 3%;
+}
+
+.ul {
+    line-height: 2;
+
+}
+
+.button {
+    text-align: center;
+}
+
+.button>button {
+    border-radius : 30px;
+    text-transform: capitalize;
+}
+.end {
+    color: white;
+}
+.end>button {
+    bottom          : 20px;
+    right           : 15px;
+    position        : fixed;
+    background-color: #0078ff;
+    border          : none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.ox {
+    color: white;
+
+}

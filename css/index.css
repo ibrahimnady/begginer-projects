@@ -1,0 +1,39 @@
+* {
+    text-transform: capitalize;
+}
+
+body {
+    background-image   : url(../image/osaka/dark_dot.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+.card {
+    margin-top: 10%;
+    height    : 90%;
+
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card>img {
+    height: 100%;
+}
+
+.bkg {
+    background-image: url(../image/website-background.gif);
+    background-size : cover;
+    height          : 100vh;
+    width           : 100%;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    
+}
+
+.header-word {
+    color: #ffc453;
+}

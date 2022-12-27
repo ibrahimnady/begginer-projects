@@ -1,0 +1,30 @@
+body {
+    margin: 0%;
+}
+
+.background {
+    background-image   : url(../image/drew-coffman-1872.jpg);
+    height             : 100vh;
+    width              : 100%;
+    background-size    : cover;
+    background-position: center;
+}
+.nav-link{
+    color: white;
+}
+.header > h1{
+    font-size: 50px;
+
+}
+/* end header  */
+/* start section about  */
+.img{
+    width: 100%;
+    margin: 5%;
+}
+.section-text{
+    margin: 3%;
+    margin-top: 6%;
+}
+/* end section about  */
+/* start section our Baking  */

@@ -1,0 +1,234 @@
+/* start all page */
+* {
+  padding    : 0;
+  margin     : 0;
+  box-sizing : border-box;
+  font-family: 'Source Sans Pro', sans-serif
+}
+
+body {
+  text-transform: capitalize;
+}
+
+/* end  all page  */
+/* start intro style  */
+.background {
+  background-image: url(../image/img/slider/slider-01.jpg);
+  background-size : cover;
+  height          : 100vh;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, .7);
+  height          : 100vh;
+
+}
+
+a {
+  text-decoration: none;
+  font-weight    : 600;
+}
+
+.clr {
+  clear: both;
+}
+
+/* end intro style  */
+/* start about style  */
+
+
+
+/* end about style  */
+/* staet services */
+/* .services {
+  background-color: #f1f1f1;
+  width           : 100%;
+}
+
+.services h2 {
+  padding-top: 5%;
+  font-size  : 50px;
+}
+
+.s1 {
+  width           : 25%;
+  background-color: #f1f1f1;
+  text-align      : center;
+}
+
+.s2 {
+  padding: 20% 15%;
+}
+
+.s1 .s2 h3 {
+  font-size    : 30px;
+  margin-bottom: 15px;
+}
+
+.s1 .s2 p {
+  font-size: 20px;
+}
+
+.services hr {
+  width        : 100%;
+  margin-bottom: 1%;
+}
+
+.s2:hover {
+  background-color: white;
+  transition      : all 0.5s ease-in-out 0s;
+  transform       : scale(1.1);
+} */
+
+/* end services */
+/* start portfolio  */
+.portfolio {
+  margin-top: 10%;
+}
+
+.portfolio-header {
+  text-align: center;
+}
+
+.portfolio-header h2 {
+  font-size: 50px;
+}
+
+.portfolio-header hr {
+  margin-top : 0;
+  width      : 18%;
+  margin-left: 41%;
+}
+
+.portfolio-list ul li {
+  display   : inline;
+  text-align: center;
+  padding   : 1%;
+}
+
+.portfolio-list ul {
+  text-align   : center;
+  margin-top   : 2%;
+  margin-bottom: 2%;
+}
+
+.portfolio-list ul li a {
+  color    : black;
+  font-size: 30px;
+}
+
+.portfolio-list ul li a:hover {
+  color: red;
+}
+
+.portfolio-photo {
+  text-align: center;
+}
+
+.ph1 {
+  display: inline;
+  width  : 20%;
+}
+
+.ph1 .ph img {
+  width  : 25%;
+  padding: 1%;
+}
+
+/* end portfolio */
+/* start number */
+.count{
+  background-color: #f1f1f1;
+  /* padding: 5%; */
+}
+.child:hover{
+  background-color: #ff305b;
+  transition: all 1s;
+  color: gold;
+}
+
+/* end number  */
+/* start feedback */
+
+
+/* end feedback */
+/* start ourblog */
+
+
+/* end our blog  */
+/* start contact */
+.contact {
+  text-align: center;
+  font-size : 40px;
+}
+
+.contact h2 {
+  margin-bottom: 5%;
+}
+
+.input1 input {
+  width        : 25%;
+  font-size    : 20px;
+  margin-bottom: 3%;
+  text-align   : left;
+  height       : 6%;
+  margin       : 5px;
+  padding      : 10px;
+}
+
+.input2 input {
+  width        : 51%;
+  font-size    : 20px;
+  margin-bottom: 2%;
+  text-align   : left;
+  height       : 6%;
+  margin-top   : 2%;
+  padding      : 10px;
+}
+
+.input3 textarea {
+  width        : 51%;
+  font-size    : 20px;
+  height       : 20%;
+  text-align   : left;
+  margin-bottom: 2%;
+  padding      : 10px;
+}
+
+.contact form button {
+  width           : 14%;
+  font-size       : 20px;
+  margin-bottom   : 1%;
+  position        : relative;
+  right           : 19%;
+  border-radius   : 5px;
+  background-color: #ff305b;
+  color           : white;
+  padding         : 1%;
+}
+
+.contact-form button:hover {
+  background-color: red;
+}
+
+/* end contact */
+/* start footer  */
+.footer {
+  background-color: #333333;
+  height          : 25%;
+  margin-top      : 5%;
+  text-align      : center;
+  color           : white;
+}
+
+.footer p {
+  position : relative;
+  top      : 50%;
+  font-size: 20px;
+}
+
+.footer p span {
+  color: red;
+}
+
+/* end footer  */
